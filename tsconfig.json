@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./dist/",
+    "target": "ES2017",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "strict": true,
+    "importHelpers": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
+  }
+}
